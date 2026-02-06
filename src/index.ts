@@ -4,7 +4,10 @@ import { Command } from "commander";
 
 const program = new Command();
 
-program.name("mycli").description("A minimal TypeScript CLI").version("0.0.1");
+program
+  .name("mycli")
+  .description("A minimal TypeScript CLI")
+  .version("0.0.1");
 
 program
   .command("hello")
